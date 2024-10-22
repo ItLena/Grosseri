@@ -1,0 +1,144 @@
+{
+    "products": [
+        {
+            "id": "d465bab6-95ec-427b-a572-48dccc0b5b4c",
+            "product_name": "Juice - Cranberry 284ml",
+            "prise": "€89,17",
+            "measure": "item",
+            "image": "https://assets.axfood.se/image/upload/f_auto,t_500/07310867561426_C1L1_s02"
+        },
+        {
+            "id": "885ca08d-1112-4c7a-baf9-5925419aa4fd",
+            "product_name": "Bread - Italian Corn Meal Poly",
+            "prise": "€1,96",
+            "measure": "item",
+            "image": "https://m.media-amazon.com/images/I/51tNltjIcuL._AC_UL320_.jpg"
+        },
+        {
+            "id": "04ed7188-b435-4a9e-88d8-c78e5e6eb250",
+            "product_name": "Fish - Artic Char, Cold Smoked",
+            "measure": "kg",
+            "prise": "€17,71",
+            "image": "https://cdn.britannica.com/05/88205-050-9EEA563C/Bigmouth-buffalo-fish.jpg"
+        },
+        {
+            "id": "fae547ac-2d5b-49ad-8767-bddb25adea65",
+            "product_name": "Sugar - Brown",
+            "prise": "€3,65",
+            "measure": "kg",
+            "image": "https://m.media-amazon.com/images/I/61GT+lkFjnL._AC_UL320_.jpg"
+        },
+        {
+            "id": "65c903e1-4596-4449-a74b-f70f4b06f4d9",
+            "product_name": "Asparagus - Green, Fresh",
+            "prise": "€8,14",
+            "measure": "kg",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS872umuSgJUX5ZKGSErCWkKzlw8qvgeXquRA&s"
+        },
+        {
+            "id": "8c328a4e-b933-4c2c-a39a-be49e086cf7f",
+            "product_name": "Garam Marsala",
+            "prise": "€23,42",
+            "measure": "item",
+            "image": "https://www.kockens.se/wp-content/uploads/2015/02/garam-masala.jpg"
+        },
+        {
+            "id": "b042aa03-c5dc-4b8f-b34c-de6d89fd5da7",
+            "product_name": "Extract - Raspberry",
+            "prise": "€19,62",
+            "measure": "item",
+            "image": "https://m.media-amazon.com/images/I/71sS3sDRaBL._AC_UF894,1000_QL80_.jpg"
+        },
+        {
+            "id": "a399325a-3be4-4d92-9fce-f5beeb5e1f88",
+            "product_name": "Beef - Prime Rib Aaa",
+            "prise": "€21,97",
+            "measure": "kg",
+            "image": "https://cdn.britannica.com/68/143268-050-917048EA/Beef-loin.jpg"
+        },
+        {
+            "id": "345c6a11-c516-4ee3-ae70-cc0b4b264a2a",
+            "product_name": "Muffin - Blueberry Individual",
+            "prise": "€1,35",
+            "measure": "item",
+            "image": "https://images.freshop.ncrcloud.com/2422767/868dcd8460cb3c402bc655acb504be6f_large.png"
+        },
+        {
+            "id": "6cfcdb85-69da-4ff5-8bb8-d157a6069bbd",
+            "product_name": "Mushroom - White Button",
+            "prise": "€7,96",
+            "measure": "kg",
+            "image": "https://mushroomcouncil.org/wp-content/uploads/2019/11/Varieties-white-button.jpg"
+        },
+        {
+            "id": "c4811b47-faad-4843-806c-697269d371f6",
+            "product_name": "Aspic - Amber",
+            "prise": "€3,55",
+            "measure": "item",
+            "image": "https://www.nevejan.eu/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/k/n/Knorr_aspic_amber_gelei_900gr_1.jpg"
+        },
+        {
+            "id": "eb63c86e-3fe6-4f17-8068-4da89f1b09f5",
+            "product_name": "Shrimp - Black Tiger 8 - 12",
+            "prise": "€36,11",
+            "measure": "kg",
+            "image": "https://www.kagerer.de/media/image/a6/21/bd/103-104-105-106-107-108-109-110_Shrimps-Black-Tiger_thawed_rgbI2PYyWmCeyc16_700x700.jpg"
+        },
+        {
+            "id": "63a4e3bd-d9c7-4272-a7f8-f4003269e44d",
+            "product_name": "Chinese Foods - Pepper Beef",
+            "prise": "€9,95",
+            "measure": "kg",
+            "image": "https://kirbiecravings.com/wp-content/uploads/2019/07/pepper-steak-6.jpg"
+        },
+        {
+            "id": "6d96d714-e037-4ec3-a588-7cd2297f1388",
+            "product_name": "Apple - Golden Delicious",
+            "prise": "€4,40",
+            "measure": "kg",
+            "image": "https://media.martinservera.se/w_1440,q_auto,f_auto/prod/martinservera/produkt/3/050/100/DV02_116590_01.png"
+        },
+        {
+            "id": "556fa466-276a-4e7f-89f0-896dca8bc882",
+            "product_name": "Strawberry",
+            "prise": "5,70",
+            "measure": "kg",
+            "image": "https://sallmundsgard.se/wp-content/uploads/2020/12/p11.jpg"
+        },
+        {
+            "id": "5f1d6a7c-a6c3-4359-a8fb-40b72b1016e3",
+            "product_name": "Kiwi",
+            "prise": "€1,52",
+            "measure": "item",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ldxcNoF34BRrO8zaBM7S4mcjRIXV3VF0gw&s"
+        },
+        {
+            "id": "f5603175-b9c9-4477-99d2-88d93756488e",
+            "product_name": "Cream Soda",
+            "prise": "€39,18",
+            "measure": "item",
+            "image": "https://my-sweet-usa.de/cdn/shop/products/3242.jpg?v=1668687509"
+        },
+        {
+            "id": "1422619e-b5ca-426f-9167-185fbc171f9b",
+            "product_name": "Chicken",
+            "prise": "€24,93",
+            "measure": "kg",
+            "image": "https://www.shutterstock.com/image-photo/raw-chicken-wood-table-isolated-260nw-30899377.jpg"
+        },
+        {
+            "id": "80e011f3-5e3b-49a0-8189-08dab1c362d8",
+            "product_name": "Oil - Olive",
+            "prise": "€19,67",
+            "measure": "item",
+            "image": "https://essentials.my/wp-content/uploads/2021/06/Naturel-Extra-Virgin-Olive-Oil-250ml-and-500ml.jpg"
+        },
+        {
+            "id": "e234ab7d-d352-403a-8b0b-3b9bbd358fd5",
+            "product_name": "Tuna - Canned, Flaked, Light",
+            "prise": "€32,70",
+            "measure": "kg",
+            "image": "https://m.media-amazon.com/images/I/71ITs2QibsL.jpg"
+        }
+    ]
+}
