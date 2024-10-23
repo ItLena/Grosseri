@@ -14,16 +14,15 @@ function App() {
   return (
     <>
     <Navbar/>
-    <body>
+    <body> 
       
- 
-      <header>
+      <header className='banner-box'>
         <h1>Welcome in to the grossery store</h1>
-      </header>
+      </header> 
       <div>
         {links}
       </div>
-      </body>
+   </body>
     
     </>
   )

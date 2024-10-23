@@ -8,7 +8,8 @@ const ProductCard = ({ product }) => {
             <div className='card'>
                 <img src={product.image} />
                 <h5>{product.title}</h5>
-                <h2>{product.prise} / {product.measure}</h2>
+                <h3>{product.prise} / {product.measure}</h3>
+                <button>Add to cart</button>
             </div>
         </>
     )
