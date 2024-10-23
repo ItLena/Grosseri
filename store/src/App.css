@@ -1,7 +1,24 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;  
   text-align: center;
 }
 
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem
+}
 
+@media only screen and (max-width: 700px){
+  .container {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .container {
+    width: 100%;
+  }
+}

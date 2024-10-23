@@ -14,14 +14,16 @@ function App() {
   return (
     <>
     <Navbar/>
-    <body>      
+    <body>
+      
+ 
       <header>
         <h1>Welcome in to the grossery store</h1>
       </header>
       <div>
         {links}
       </div>
-    </body>
+      </body>
     
     </>
   )
