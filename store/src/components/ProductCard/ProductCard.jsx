@@ -2,14 +2,14 @@ import PropTypes from 'prop-types'
 import './style.css'
 
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, addItem }) => {
     return (
         <>
             <div className='card'>
                 <img src={product.image} />
                 <h5>{product.title}</h5>
                 <h3>{product.prise} / {product.measure}</h3>
-                <button>Add to cart</button>
+                <button onClick={()=>addItem(product)}>Add to cart</button>
             </div>
         </>
     )
@@ -17,7 +17,8 @@ const ProductCard = ({ product }) => {
 
 
 ProductCard.propTypes = {
-product: PropTypes.any
+product: PropTypes.any,
+addItem: PropTypes.any
 }
 
 export default ProductCard;

@@ -1,16 +1,12 @@
-ul{
-    width: 100%;    
-    margin:0; 
-    position: fixed;
-    overflow: hidden;
-    background-color: var(--dark);
-    list-style: none;    
-    color: var(--white);
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-   
-}
+
 .icon{
     font-size: 2rem;
 }
+.navLink{
+ text-decoration: none;
+ color: var(--white); 
+}
+.navLink:hover {
+    transform: scale(1.1); 
+}
+ 

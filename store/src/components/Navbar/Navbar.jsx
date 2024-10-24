@@ -1,21 +1,29 @@
 import {Link} from 'react-router-dom';
+import PropTypes from 'prop-types'
 import './style.css'
 import { TiShoppingCart } from "react-icons/ti";
 import SearchBar from '../SearchBar'
 
-const Navbar = () =>{
+const Navbar = ({countItems}) =>{
     return(
         <>
-       
-            <ul>
-                <li><Link to="/"/>Home</li>
-                <li><Link to="/login"/>Login</li>
-                <li><SearchBar/></li>
-                <li><Link to="/basket"/><TiShoppingCart className="icon"/></li>
-            </ul>
+            <nav>
+                <Link to="/" className='navLink'>Home</Link>
+                <Link to="/login" className='navLink'>Login</Link>
+                <SearchBar/>
+                <span>
+                <Link to="/cart" className='navLink'><TiShoppingCart className="icon"/></Link>
+                <p>{countItems}</p>
+                </span>
+            </nav>
        
         </>
     )
+
 }
+Navbar.propTypes = {
+    countitems: PropTypes.number,
+   
+    }
 
 export default Navbar;

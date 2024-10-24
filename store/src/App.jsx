@@ -1,29 +1,38 @@
-// import { useState } from 'react'
+
 import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home'
-import Basket from './pages/Basket'
+import Cart from './pages/Cart'
+import Login from './pages/Login'
 import './App.css'
-import {useRoutes} from 'react-router-dom'
+import { useRoutes } from 'react-router-dom'
+import { useState } from 'react'
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const [cartItems, setCartItems] = useState([])
+  
+
+  const onAdd = (product) =>{
+    const exist = cartItems.find(x=> x.id === product.id)
+    exist ? setCartItems(cartItems.map(
+      x=> x.id === product.id ? {...exist, count: exist.count +1} : x))
+      : setCartItems([...cartItems, {...product, tcount: 1}])
+  }
+
   let links = useRoutes([
-    {path: "/", element: <Home/>},
-    {path: "/basket", element: <Basket/>}
+    { path: "/", element: <Home onAdd={onAdd}/> },
+    { path: "/cart", element: <Cart onAdd={onAdd} /> },
+    { path: "/login", element: <Login /> }
   ])
   return (
     <>
-    <Navbar/>
-    <body> 
-      
-      <header className='banner-box'>
-        <h1>Welcome in to the grossery store</h1>
+     <body>
+      <header>
+      <Navbar countItems={cartItems.length}/>
       </header> 
-      <div>
-        {links}
-      </div>
-   </body>
-    
+        <main>
+          {links}
+        </main>
+      </body>
     </>
   )
 }
