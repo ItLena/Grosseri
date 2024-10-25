@@ -8,27 +8,26 @@ import { useRoutes } from 'react-router-dom'
 import { useState } from 'react'
 
 function App() {
-  const [cartItems, setCartItems] = useState([])
-  
+  const [cartItems, setCartItems] = useState([]);
+ 
 
-  const onAdd = (product) =>{
-    const exist = cartItems.find(x=> x.id === product.id)
-    exist ? setCartItems(cartItems.map(
-      x=> x.id === product.id ? {...exist, count: exist.count +1} : x))
-      : setCartItems([...cartItems, {...product, tcount: 1}])
+  const onAdd = (product) => {
+    const exist = cartItems.find(x => x.id === product.id)
+    exist ? setCartItems(cartItems.map(x=>x .id === product.id ? {...exist, count: exist.count + 1} : x))
+      : setCartItems([...cartItems, {...product, count: 1}])
   }
 
   let links = useRoutes([
-    { path: "/", element: <Home onAdd={onAdd}/> },
+    { path: "/", element: <Home onAdd={onAdd} /> },
     { path: "/cart", element: <Cart onAdd={onAdd} /> },
     { path: "/login", element: <Login /> }
   ])
   return (
     <>
-     <body>
-      <header>
-      <Navbar countItems={cartItems.length}/>
-      </header> 
+      <body>
+        <header>
+          <Navbar countItems={cartItems.length > 0 ? cartItems.length : null} />
+        </header>
         <main>
           {links}
         </main>

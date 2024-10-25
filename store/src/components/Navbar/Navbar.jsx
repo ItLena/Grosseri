@@ -22,7 +22,7 @@ const Navbar = ({countItems}) =>{
 
 }
 Navbar.propTypes = {
-    countitems: PropTypes.number,
+    countItems: PropTypes.number,
    
     }
 

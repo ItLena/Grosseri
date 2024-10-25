@@ -58,6 +58,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
   box-shadow:0 4px 6px 0 #00000033, 0 6px 6px 0 #00000030;
+  margin-top: 5%;
 }
 button:hover {
   border: #c9ed7cc1 1px solid;     
@@ -67,4 +68,15 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+form{
+  width: 60%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;  
+  gap: 1rem;
+  padding: 1rem;
+  box-shadow:0 4px 6px 0 #00000033, 0 6px 6px 0 #00000030;
+}
+input{
+  padding: 0.5rem ;
+}

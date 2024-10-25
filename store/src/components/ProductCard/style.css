@@ -3,11 +3,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 20%;
+    max-width: 200px;
     height: 250px;
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
     margin: 0.5rem;
     padding: 1.5rem;
+}
+.card h3, h5{
+    margin: 5px;
 }
 
 img{

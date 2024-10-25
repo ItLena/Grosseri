@@ -1,21 +1,21 @@
  [
         {
             "id": "d465bab6-95ec-427b-a572-48dccc0b5b4c",
-            "title": "Juice - Cranberry 284ml",
+            "title": "Juice - Fruit",
             "prise": "€89,17",
             "measure": "item",
             "image": "https://assets.axfood.se/image/upload/f_auto,t_500/07310867561426_C1L1_s02"
         },
         {
             "id": "885ca08d-1112-4c7a-baf9-5925419aa4fd",
-            "title": "Bread - Italian Corn Meal Poly",
+            "title": "Bread - Corn Meal",
             "prise": "€1,96",
             "measure": "item",
             "image": "https://d1ax460061ulao.cloudfront.net/280x300/f/4/f425571ac6de398c9a216ef3aa5ee6b8.webp"
         },
         {
             "id": "04ed7188-b435-4a9e-88d8-c78e5e6eb250",
-            "title": "Fish - Artic Char, Cold Smoked",
+            "title": "Fish, Cold Smoked",
             "measure": "kg",
             "prise": "€17,71",
             "image": "https://cdn.britannica.com/05/88205-050-9EEA563C/Bigmouth-buffalo-fish.jpg"
@@ -29,7 +29,7 @@
         },
         {
             "id": "65c903e1-4596-4449-a74b-f70f4b06f4d9",
-            "title": "Asparagus - Green, Fresh",
+            "title": "Asparagus - Fresh",
             "prise": "€8,14",
             "measure": "kg",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS872umuSgJUX5ZKGSErCWkKzlw8qvgeXquRA&s"
@@ -50,21 +50,21 @@
         },
         {
             "id": "a399325a-3be4-4d92-9fce-f5beeb5e1f88",
-            "title": "Beef - Prime Rib Aaa",
+            "title": "Beef - Prime Rib",
             "prise": "€21,97",
             "measure": "kg",
             "image": "https://cdn.britannica.com/68/143268-050-917048EA/Beef-loin.jpg"
         },
         {
             "id": "345c6a11-c516-4ee3-ae70-cc0b4b264a2a",
-            "title": "Muffin - Blueberry Individual",
+            "title": "Muffin - Blueberry",
             "prise": "€1,35",
             "measure": "item",
             "image": "https://images.freshop.ncrcloud.com/2422767/868dcd8460cb3c402bc655acb504be6f_large.png"
         },
         {
             "id": "6cfcdb85-69da-4ff5-8bb8-d157a6069bbd",
-            "title": "Mushroom - White Button",
+            "title": "Champignon Fresh",
             "prise": "€7,96",
             "measure": "kg",
             "image": "https://mushroomcouncil.org/wp-content/uploads/2019/11/Varieties-white-button.jpg"
@@ -78,14 +78,14 @@
         },
         {
             "id": "eb63c86e-3fe6-4f17-8068-4da89f1b09f5",
-            "title": "Shrimp - Black Tiger 8 - 12",
+            "title": "Shrimp - Black Tiger",
             "prise": "€36,11",
             "measure": "kg",
             "image": "https://www.kagerer.de/media/image/a6/21/bd/103-104-105-106-107-108-109-110_Shrimps-Black-Tiger_thawed_rgbI2PYyWmCeyc16_700x700.jpg"
         },
         {
             "id": "63a4e3bd-d9c7-4272-a7f8-f4003269e44d",
-            "title": "Chinese Foods - Pepper Beef",
+            "title": "Chinese Pepper Beef",
             "prise": "€9,95",
             "measure": "kg",
             "image": "https://kirbiecravings.com/wp-content/uploads/2019/07/pepper-steak-6.jpg"
@@ -134,7 +134,7 @@
         },
         {
             "id": "e234ab7d-d352-403a-8b0b-3b9bbd358fd5",
-            "title": "Tuna - Canned, Flaked, Light",
+            "title": "Tuna - Oil",
             "prise": "€32,70",
             "measure": "kg",
             "image": "https://m.media-amazon.com/images/I/71ITs2QibsL.jpg"
