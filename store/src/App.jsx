@@ -2,14 +2,13 @@
 import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home'
 import Cart from './pages/Cart'
-import Login from './pages/Login'
+
 import './App.css'
-import { useRoutes } from 'react-router-dom'
+import { useRoutes} from 'react-router-dom'
 import { useState } from 'react'
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
- 
 
   const onAdd = (product) => {
     const exist = cartItems.find(x => x.id === product.id)
@@ -19,14 +18,14 @@ function App() {
 
   let links = useRoutes([
     { path: "/", element: <Home onAdd={onAdd} /> },
-    { path: "/cart", element: <Cart onAdd={onAdd} /> },
-    { path: "/login", element: <Login /> }
+    { path: "/cart", element: <Cart onAdd={onAdd} /> }
+   
   ])
   return (
     <>
       <body>
         <header>
-          <Navbar countItems={cartItems.length > 0 ? cartItems.length : null} />
+          <Navbar countItems={cartItems.length > 0 ? cartItems.length : null}  />
         </header>
         <main>
           {links}

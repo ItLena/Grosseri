@@ -24,6 +24,9 @@ body {
   min-width: 320px;
   min-height: 100vh;  
 }
+main{
+  overflow: hidden;
+}
 
 nav{
   width: 100%;    
@@ -59,6 +62,7 @@ button {
   transition: border-color 0.25s;
   box-shadow:0 4px 6px 0 #00000033, 0 6px 6px 0 #00000030;
   margin-top: 5%;
+ 
 }
 button:hover {
   border: #c9ed7cc1 1px solid;     
@@ -73,10 +77,14 @@ form{
   max-width: 350px;
   display: flex;
   flex-direction: column;  
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
   padding: 1rem;
-  box-shadow:0 4px 6px 0 #00000033, 0 6px 6px 0 #00000030;
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+ 
 }
 input{
-  padding: 0.5rem ;
+  padding: 0.5rem;
+  width: 90%;
 }
