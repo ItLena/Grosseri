@@ -18,7 +18,7 @@ function App() {
 
   let links = useRoutes([
     { path: "/", element: <Home onAdd={onAdd} /> },
-    { path: "/cart", element: <Cart onAdd={onAdd} /> }
+    { path: "/cart", element: <Cart cartItems={cartItems}/> }
    
   ])
   return (
