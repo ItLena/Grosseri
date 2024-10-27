@@ -5,8 +5,9 @@ import Banner from '../components/Banner'
 import PropTypes from 'prop-types'
 
 const Home = (props) => {
+    
     const [products, setProducts] = useState([])
-    const {onAdd} = props;
+    const { onAdd } = props;
 
     useEffect(() => {
         axios.get('../../public/data/products.json')
@@ -17,27 +18,25 @@ const Home = (props) => {
 
     }, [])
 
-    
-
     return (
         <>
-           <Banner/>
-           <div className="section">
-            <h1>Welcome to grossery store</h1>
-            <div className='container'>
-                {products && products.map((item) => (
-                    <ProductCard
-                        key={item.id}
-                        product={item}
-                        addItem={onAdd}
-                    />
-                ))}
-            </div>
+            <Banner />
+            <div className="section">
+                <h1>Welcome to grossery store</h1>
+                <div className='container'>
+                    {products && products.map((item) => (
+                        <ProductCard
+                            key={item.id}
+                            product={item}
+                            addItem={onAdd}
+                        />
+                    ))}
+                </div>
             </div>
         </>
     )
 }
 Home.propTypes = {
     onAdd: PropTypes.any
-    }
+}
 export default Home;

@@ -1,10 +1,10 @@
-const SearchBar = () =>{
-    return(
+const SearchBar = () => {
+    return (
         <>
-        <input 
-        type="search" 
-        placeholder="Search product"
-        />
+            <input
+                type="search"
+                placeholder="Search product"
+            />
         </>
     )
 }

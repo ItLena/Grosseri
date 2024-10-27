@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import Cart from './pages/Cart'
 
 import './App.css'
-import { useRoutes} from 'react-router-dom'
+import { useRoutes } from 'react-router-dom'
 import { useState } from 'react'
 
 function App() {
@@ -12,20 +12,20 @@ function App() {
 
   const onAdd = (product) => {
     const exist = cartItems.find(x => x.id === product.id)
-    exist ? setCartItems(cartItems.map(x=>x .id === product.id ? {...exist, count: exist.count + 1} : x))
-      : setCartItems([...cartItems, {...product, count: 1}])
+    exist ? setCartItems(cartItems.map(x => x.id === product.id ? { ...exist, count: exist.count + 1 } : x))
+      : setCartItems([...cartItems, { ...product, count: 1 }])
   }
 
   let links = useRoutes([
     { path: "/", element: <Home onAdd={onAdd} /> },
-    { path: "/cart", element: <Cart cartItems={cartItems}/> }
-   
+    { path: "/cart", element: <Cart cartItems={cartItems} /> }
+
   ])
   return (
     <>
       <body>
         <header>
-          <Navbar countItems={cartItems.length > 0 ? cartItems.length : null}  />
+          <Navbar countItems={cartItems.length > 0 ? cartItems.length : null} />
         </header>
         <main>
           {links}
